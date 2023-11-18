@@ -1,3 +1,5 @@
+package EmployeeExample;
+
 public class Manager extends Employee{
     private int numberOfSubordinates;
     public Manager(String name, String address, double salary,String jobTitle,int numberOfSubordinates ){
@@ -18,7 +20,7 @@ public class Manager extends Employee{
     }
 
     public void manageProject(){
-        System.out.println("Manager " + getName()+" is managing that project");
+        System.out.println("EmployeeExample.Manager " + getName()+" is managing that project");
     }
 
 }

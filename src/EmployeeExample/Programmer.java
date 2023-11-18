@@ -1,6 +1,8 @@
+package EmployeeExample;
+
 public class Programmer extends Developer{
     public Programmer(String name, String address, double salary,String programmingLanguage){
-        super(name,address,salary,"Programmer",programmingLanguage);
+        super(name,address,salary,"EmployeeExample.Programmer",programmingLanguage);
     }
     @Override
     public double calculateBonus(){

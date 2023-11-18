@@ -1,3 +1,5 @@
+package EmployeeExample;
+
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -8,11 +10,11 @@ public class Main {
 
         Developer developer = new Developer("Omer", "Kurtulus",12500,"Jr.Android dev","Kotlin");
         Programmer programmer = new Programmer("Faruk","Cankaya",32000,"C#");
-        Manager manager = new Manager("Ilhan","Ankara",45000,"Program Manager",5);
+        Manager manager = new Manager("Ilhan","Ankara",45000,"Program EmployeeExample.Manager",5);
 
-        System.out.println("Manager's Bonus: $" + manager.calculateBonus());
-        System.out.println("Developer's Bonus: $" + developer.calculateBonus());
-        System.out.println("Programmer's Bonus: $" + programmer.calculateBonus());
+        System.out.println("EmployeeExample.Manager's Bonus: $" + manager.calculateBonus());
+        System.out.println("EmployeeExample.Developer's Bonus: $" + developer.calculateBonus());
+        System.out.println("EmployeeExample.Programmer's Bonus: $" + programmer.calculateBonus());
 
         System.out.println(manager.generatingPerformanceReport());
         System.out.println(developer.generatingPerformanceReport());
